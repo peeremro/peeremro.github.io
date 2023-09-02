@@ -1,64 +1,425 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <title>LexOP: A lexical database with Orthography-Phonology statistics for
-      French monosyllabic words</title>
+    <title>Ronald Peereman</title>
+    <meta name="description" content="Ronald Peereman">
+    <meta name="keywords" content="Ronald Peereman">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap"
+
+      rel="stylesheet">
+    <link rel="stylesheet" media="screen and (min-width: 1025px)" href="styles.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px) and (orientation: landscape)"
+
+      href="resolution_small.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px) and (orientation: portrait)"
+
+      href="resolution_smallsmall.css">
   </head>
-  <body style="                                                 background-color:#f3f3f3;margin-left:10%;margin-right:10%">
-    <p>&nbsp;</p>
-    <p align="center"><font face="Arial, Helvetica, sans-serif" size="4"><b>LexOP:
-          A lexical database with Orthography-Phonology statistics for French
-          monosyllabic words </b><br>
-      </font></p>
-    <p>&nbsp;</p>
-    <p><font face="Arial, Helvetica, sans-serif" size="2">This directory
-        includes LEXOP (Peereman &amp; Content, 1999), a computerized lexical
-        database which provides quantitative descriptors of the relation between
-        orthography and phonology for French monosyllabic words. Three main
-        classes of variables are considered: consistency of print-to-sound and
-        sound-to-print associations, frequency of orthography-phonology
-        correspondences, and word neighborhood characteristics. The LEXOP
-        database as well as frequency and consistency tables for the different
-        units of analysis are provided in the same package.</font></p>
-    <font face="Arial, Helvetica, sans-serif" size="2">
-      <p> LexOP.2 fixes a number of different problems which were noted on the
-        initial version of the database. The main changes concern computation of
-        phonological neighbourhood, and print-to-sound consistency on coda (C2)
-        units. Note that by-token values of the phonological neighbourhood are
-        now based on the cumulative frequencies of heterographic homophones.
-        Several phonological transcriptions and segmentations have also been
-        corrected. This led to recompute both consistency and neighbourhood
-        values. September 1999 </p>
-      <p>Users are welcome to send comments and remarks to the authors. Ronald
-        Peereman, Laboratoire d'Etude des Apprentissages et du Developpement,
-        C.N.R.S., UMR 5022, Universite de Bourgogne, Pole AAFE, Esplanade
-        Erasme, BP 26513, 21065 Dijon Cedex, France, (email :
-        peereman@u-bourgogne.fr). Alain Content, Laboratoire de Psychologie
-        Experimentale, Universite libre de Bruxelles, CP 191, Ave F. D.
-        Roosevelt, 50, B-1050 Brussels, Belgium (email: acontent@ulb.ac.be). </p>
-      <p> Reference: Peereman, R. &amp; Content, A. (1999). LEXOP- A lexical
-        database providing Orthography-Phonology statistics for French
-        monosyllabic words.<i> Behavior Research Methods, Instruments,&amp;
-          Computers, 31</i>, 376-379. <a href="https://doi.org/10.3758/bf03207735"
-
-          target="_blank">doi.org/10.3758/bf03207735 <br>
-        </a></p>
-      <p><a href="https://doi.org/10.3758/bf03207735" target="_self"><br>
-        </a> </p>
-      <p><b>Downloads:</b></p>
-      <p><a href="lexop2.xlsx" target="_self">Lexop Database (v2)</a></p>
-      <p><a href="OPtable.xlsx" target="_self">OP table</a></p>
-      <p><a href="POtable.xlsx" target="_self">PO table</a></p>
+  <body>
+    <header>
+      <table class="table2" width="100%" border="0">
+        <tbody>
+          <tr>
+            <td align="left" width="6%"> <br>
+            </td>
+            <td width="204"><img src="uga2.png" height="81" width="130"></td>
+            <!--   <td width="232"><img src="images/lpnc.png" height="56" width="150"></td> -->
+            <td align="center" width="10%"><br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
       <br>
-      <p><a href="LexopMan.pdf" target="_self">Lexop Manual</a></p>
-      <p><a href="Peereman,%20Content%20-%201999%20-%20LEXOP%20a%20lexical%20database%20providing%20orthography-phonology%20statistics%20for%20French%20monosyllabic%20words.pdf"
+    </header>
+    <main></main>
+    <footer></footer>
+    <table width="100%" border="0">
+      <tbody>
+        <tr>
+          <td align="left" width="12%"> <br>
+            <p> </p>
+          </td>
+          <td aligne="left" width="68%">
+            <article> <br>
+              <titrepage>
+                <h2>Ronald Peereman </h2>
+              </titrepage>
+              <p>&nbsp;<img src="photo.jpg" style="margin: 10px; width: 163px; height: 163px;"
 
-          target="_self">Lexop paper</a></p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-      <p>&nbsp;</p>
-    </font>
+                  align="left"><b>Laboratoire de Psychologie et Neurocognition
+                  (LPNC)</b> <br>
+                &nbsp;<b>CNRS UMR5105</b><br>
+                &nbsp;<b>Université Grenoble Alpes</b><br>
+                <br>
+                UFR SHS - Bâtiment Michel Dubois<br>
+                1251 Avenue centrale<br>
+                CS40700 38058 Grenoble Cedex 9, France <br>
+                Email: ronald.peereman@univ-grenoble-alpes.fr</p>
+              <br>
+              <br>
+              <p></p>
+            </article>
+          </td>
+          <td align="right" width="5%"> <br>
+            &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; </td>
+        </tr>
+      </tbody>
+    </table>
+    <table width="100%" border="0">
+      <tbody>
+        <tr>
+          <td align="left" width="12%"> <br>
+            <p> </p>
+          </td>
+          <td aligne="left" width="68%">
+            <article> <br>
+              <titrepage>
+                <h1>Research activities/interests </h1>
+              </titrepage>
+              <p>• Word recognition in the visual and auditory modalities<br>
+                • Reading/spelling acquisition<br>
+                • Statistical learning<br>
+                • Morphological processing in spelling and orthographic
+                acquisition<br>
+                • Word segmentation in continuous speech stream<br>
+                • Phonotactics, graphotactics, lexical neighborhood<br>
+                • Quantitative analyse of orthography and distributional
+                characteristics</p>
+              <br>
+              <titrepage>
+                <h1>Past Positions</h1>
+              </titrepage>
+              <p><i>1992-2008</i> Laboratoire d'Etude de l'Apprentissage et du
+                Développement, CNRS UMR 5022, Université de Bourgogne, Dijon,
+                France <br>
+                <br>
+                <i>1991-1992</i> Laboratoire de Psychologie Expérimentale,
+                Université Libre de Bruxelles, Brussels, Belgium <br>
+                <titrepage> </titrepage></p>
+              <h1>Publications </h1>
+              <p> <br>
+                • Pacton, E., &amp; Peereman, R. (2023).Morphology as an aid in
+                orthographic learning of new words: The influence of inflected
+                and derived forms in spelling acquisition.Journal of
+                Experimental Child Psychology,232. <br>
+                <br>
+                • Hilton H.E., Gauthier, M. &amp; Peereman, R. (2022)
+                L’importance d’un programme lexical en didactique des langues
+                étrangères. Les Langues Modernes, 3. Numéro Penser, enseigner,
+                apprendre le vocabulaire.
+                https://www.aplv-languesmodernes.org/spip.php?article9206<br>
+                <br>
+                • Pacton, S., Nys, M., &amp; Peereman, R. (2022). L’influence
+                des connaissances graphotactiques dans l’acquisition de
+                l’orthographe lexicale. In Recommandations professionnelles
+                concernant le langage écrit. (pp. 232-237). CFO (Collège
+                Français d’Orthophonie).
+https://www.college-francais-orthophonie.fr/les-recommandations-de-bonne-pratique/<br>
+                <br>
+                • Kandel, S., Peereman, R., Ghimenton, A. &amp; Perret, C.
+                (2019). Letter coding affects movement production in word
+                writing: An English-Italian cross-linguistic study. Special
+                Issue: The dynamics of written word production. Reading &amp;
+                Writing, 32, 95-114.<br>
+                <br>
+                • Pacton, S., Fayol, M, Nys, M. &amp; Peereman, R. (2019).
+                Implicit statistical learning of graphotactic knowledge and
+                lexical orthographic acquisition. In C. Perret and T. Olive
+                (Eds.), Spelling and writing words. Theoretical and
+                methodological advances (pp. 41-66). Brill, Boston.<br>
+                <br>
+                • Peereman, R., &amp; Sprenger-Charolles, L. (2018).
+                Manulex-Morpho, une base de données sur l’orthographe du
+                français intégrant les morpho-phonogrammes. Numéro spécial «
+                Lire-écrire : des savoirs scientifiques aux savoirs pratiques ».
+                Langue Française, 199, 99-109<br>
+                <br>
+                • Pacton, S., Afonso Jaco, A., Nys, M., Foulin, J.-N., Treiman,
+                R., &amp; Peereman, R. (2018). Children benefit from
+                morphological relatedness independently of orthographic
+                relatedness when they learn to spell new words. Journal of
+                Experimental Child Psychology, 171, 71-83.<br>
+                <br>
+                • Poulin-Charronnat, B., Perruchet, P., Tillmann, B., &amp;
+                Peereman, R. (2017). Familiar units prevail over statistical
+                cues in word segmentation. Psychological Research, 81, 990-1003<br>
+                <br>
+                • Sobaco, A., Treiman, R., Peereman, R., Borchardt, G., &amp;
+                Pacton, S. (2015). The influence of graphotactic knowledge on
+                adults’ learning of spelling. Memory &amp; Cognition, 43,
+                593–604<br>
+                <br>
+                • Perruchet, P., Poulin-Charronnat, B., Tillmann, B., &amp;
+                Peereman, R. (2014). New evidence for chunk-based models in word
+                segmentation. Acta Psychologica, 149, 1-8.<br>
+                <br>
+                • Kandel, S., Peereman, R. Ghimenton, A. (2014). How do we code
+                the letters of a word when we have to write it? Investigating
+                double letter representation in French. Acta Psychologica, 148,
+                56-62.<br>
+                <br>
+                • Kandel, S., Peereman, R., &amp; Ghimenton, A. (2013). Further
+                evidence for the interaction of central and peripheral
+                processes. The impact of double letters in writing English
+                words. Frontiers in Psychology, 4(729), 1-8.<br>
+                <br>
+                • Peereman, R., Sprenger-Charolles, L., &amp; Messaoud-Galusi,
+                S. (2013). The contribution of morphology to the consistency of
+                spelling-to-sound relations: A quatitative analysis based on
+                French elementary school readers. Annee Psychologique, 113,
+                3-33.<br>
+                <br>
+                • Dufour, S., &amp; Peereman, R. (2012). Rime priming effect in
+                auditory word recognition: Does orthographic overlap increase
+                the facilitation? In N. Hsu and Z. Schütt (Eds.), Psychology of
+                Priming, Nova Science Publishers. Pp 155-168.<br>
+                <br>
+                • Kandel., S., Peereman, R., Gosjacques, G., &amp; Fayol, M.
+                (2011). For a psycholinguistic model of handwriting production:
+                Testing the syllable-bigram controversy. Journal of Experimental
+                Psychology: HPP, 37, 1310-1322.<br>
+                <br>
+                • Courrier, P., Brand-D’Abrescia, M, Peereman, R., Spieler, D.,
+                &amp; Rey, A. (2011). Validated intraclass correlation
+                statistics to test item performance models. Behavior Research
+                Methods, 43, 37-55.<br>
+                <br>
+                • Dufour, S., &amp; Peereman, R. (2009). Competition effects in
+                phonological priming : The role of mismatch position between
+                primes and targets. Journal of Psycholinguistic Research, 38,
+                475-490.<br>
+                <br>
+                • Peereman, R., Dufour, S., &amp; Burt, J. (2009). Orthographic
+                Influences in Spoken-Word Recognition: The Consistency effect in
+                Semantic and Gender-Categorization Tasks. Psychonomic Bulletin
+                &amp; Review, 16, 363-368.<br>
+                <br>
+                • Lété, B., Peereman, R. &amp; Fayol, M. (2008). Consistency and
+                word-frequency effects on spelling among first- to fifth-grade
+                French children : A regression-based study. Journal of Memory
+                and Language, 58, 952-977.<br>
+                <br>
+                • Peereman, R., Lété, B., &amp; Sprenger-Charolles, L. (2007).
+                Manulex-Infra: Distributional characteristics of
+                grapheme-phoneme mappings, infra-lexical and lexical units in
+                child-directed written material. Behavior Research Methods, 39,
+                579-589.<br>
+                <br>
+                • Dufour, S., Frauenfelder, U. H. &amp; Peereman, R. (2007).
+                Inhibitory priming in auditory word recognition: Is it really
+                the product of response biases? Current Psychology Letters,
+                Behaviour, Brain &amp; Cognition, 22, Vol. 2.<br>
+                <br>
+                • Peereman, R., Brand, M., &amp; Rey, A. (2006).
+                Letter-by-letter processing in the phonological conversion of
+                multi-letter graphemes: Searching sounds in printed pseudowords.
+                Psychonomic Bulletin &amp; Review, 13, 38-44.<br>
+                <br>
+                • Perruchet, P., Peereman, R., &amp; Tyler , M. D. (2006). Do we
+                need algebraic-like computations? A reply to Bonatti, Pena,
+                Nespor, and Mehler (2006). Journal of Experimental Psychology:
+                General, 135, 322-326.<br>
+                <br>
+                • Poulin, B., Bigand, E., Madurell, F., &amp; Peereman, R.
+                (2005). Musical stucture modulates semantic priming in vocal
+                music. Cognition, 67-78<br>
+                <br>
+                • Perruchet, P., &amp; Peereman, R. (2005). Apprendre sa langue
+                maternelle , une question de statistique ? in Pour La Science,
+                Janvier.<br>
+                <br>
+                • Peereman R., Dubois Dunilac, N., Perruchet, P.,&amp; Content,
+                A. (2004). Distributional properties of language and
+                sub-syllabic processing units. In: Bonin, P. (Ed.), Mental
+                Lexicon. NY: NovaScience Publishers.<br>
+                <br>
+                • Dufour, S., &amp; Peereman, R. (2004). Phonological priming in
+                auditory word recognition : Initial overlap facilitation effect
+                varies as a function of target word frequency. Current
+                Psychology Letters, 14, Vol. 3.<br>
+                <br>
+                • Perruchet, P., Tyler, M.D., Galland, N., &amp; Peereman, R.
+                (2004). Learning nonadjacent dependencies : No need for
+                algebraic-like computations. Journal of Experimental Psychology
+                : General, 573-583.<br>
+                <br>
+                • Perruchet, P., &amp; Peereman, R. (2004). The exploitation of
+                distributional information in syllable processing: What and how?
+                Journal of Neurolinguistics, 97-119<br>
+                <br>
+                • Dufour, S. &amp; Peereman, R. (2003). Lexical competition in
+                phonological priming: Assessing the role of phonological match
+                and mismatch lengths between primes and targets. Memory &amp;
+                Cognition, 31, 1271-1283<br>
+                <br>
+                • Dufour, S. &amp; Peereman, R. (2003). Inhibitory priming
+                effects in auditory word recognition: When the target's
+                competitors conflict with the prime word. Cognition, 88, B33-B44<br>
+                <br>
+                • Brand, M., Rey, A., &amp; Peereman, R. (2003). Where is the
+                syllable priming effect in visual word recognition? Journal of
+                Memory and Language, 48, 435-443.<br>
+                <br>
+                • Bonin, P., Peereman, R., Malardier, N., Méot, A., &amp;
+                Chalard, M. (2003). A new set of 299 pictures for
+                psycholinguistic studies: French norms for name agreement, image
+                agreement, conceptual familiarity, visual complexity, image
+                variability, age of acquisition, and naming latencies. Behavior
+                Research Methods, Instruments, &amp; Computers, 35, 158-167.<br>
+                <br>
+                • Peereman, R., &amp; Dufour, S. (2003). Un correctif aux
+                notations phonétiques de la base de données LEXIQUE [A
+                corrective to the phonetic notations of the LEXIQUE database].
+                L’Année Psychologique, 103, 103-108.<br>
+                <br>
+                • Dufour, S., Peereman, R., Pallier, C., &amp; Radeau, M.
+                (2002). Vocolex. Une base de données lexicales sur les
+                similarités phonologiques entre les mots français [VoCoLex : A
+                lexical database on phonological similarity between French
+                words]. L’Année Psychologique, 102, 725-746<br>
+                <br>
+                • Gombert, J.-E., &amp; Peereman, R. (2001). Training children
+                with artificial alphabet. Psychology, 8, 338-357<br>
+                <br>
+                • Bonin, P., Peereman, R., &amp; Fayol, M. (2001). Do
+                phonological codes constrain the selection of orthographic codes
+                in written picture naming. Journal of Memory and Language, 45,
+                688-720<br>
+                <br>
+                • Peereman, R., &amp; Content, A. (1999). LEXOP. A LEXical
+                database with Orthography-Phonology statistics for French
+                monosyllabic words. Behavior Research Methods, Instruments,
+                &amp; Computers, 31, 376-379.<br>
+                <br>
+                • Content, A., &amp; Peereman, R. (1999). La reconnaissance des
+                mots [Word recognition]. In J.-A. Rondal &amp; X. Seron (Eds.),
+                Les troubles du langage, diagnostic et rééducation. P. Mardaga
+                (Ed.).<br>
+                <br>
+                • Bonin, P., Fayol, M., &amp; Peereman, R.(1998). Masked form
+                priming in writing isolated words from pictures: Evidence for a
+                direct retrieval of orthographic forms. Acta Psychologica, 99,
+                311-328.<br>
+                <br>
+                • Peereman, R., Content, A., &amp; Bonin, P. (1998). Is
+                perception a two-way street? The case of feedback consistency in
+                visual word recognition. Journal of Memory and Language, 39,
+                151-174.<br>
+                <br>
+                • Peereman, R., &amp; Content, A. (1997). Orthographic and
+                phonological neighborhoods in naming: Not all neighbors are
+                equally influencial in orthographic space. Journal of Memory and
+                Language, 37, 382-421.<br>
+                <br>
+                • Peereman, R. (1995). Naming regular and exception words:
+                Further examination of the effect of phonological dissension
+                among lexical neighbours. European Journal of Cognitive
+                Psychology, 7, 307-330.<br>
+                <br>
+                • Peereman, R. &amp; Content, A. (1995). The neighborhood size
+                effect in naming: Lexical activation or sublexical
+                correspondences? Journal of Experimental Psychology: Learning,
+                Memory, and Cognition., 21, 409-421.<br>
+                <br>
+                • Peereman, R. (1994). Adressage et assemblage phonologique dans
+                la prononciation des mots écrits alphabétiquement [Addressing
+                and assembling phonology in reading words aloud]. C. Gruaz,
+                J.-P. Jaffré, &amp; A. Millet, Epistémologie d'une linguistique
+                de l'écrit. CNRS-HESO, Histoire et structure des orthographes et
+                systèmes d'écriture. Paris.<br>
+                <br>
+                • Content, A., &amp; Peereman, R. (1992). Single and multiple
+                process models of print to sound conversion. In Alegria, J.,
+                Holender, D., Morais, J. &amp; Radeau, M. (Eds.) Analytic
+                Approaches to Human Cognition. Amsterdam: Elsevier.<br>
+                <br>
+                • Peereman, R. (1992). Lecture, écritures, orthographes
+                [Reading, spelling, orthographies]. In: P. Lecoq (Ed.), La
+                lecture: processus, apprentissage, troubles. Lille: Presses
+                Universitaires de Lille.<br>
+                <br>
+                • Peereman, R. (1991). Phonological assembly in reading: Lexical
+                contribution leads to violation of grapho-phonological rules.
+                Memory &amp; Cognition, 19, 568-578.<br>
+                <br>
+                • Peereman, R. (1991b). La mediation phonologique dans la
+                reconnaissance des mots écrits [Phonological mediation in
+                written word recognition]. In: R. Kolinsky, J. Morais, &amp; J.
+                Segui (Eds.), La reconnaissance des mots dans les différentes
+                modalités sensorielles: Etudes de psycholinguistique cognitive.
+                Paris: Presses Universitaires de France.<br>
+                <br>
+                • Peereman, R., &amp; Holender, D. (1990). La reconnaissance des
+                mots dans les écritures non-alphabétiques. Cahiers de
+                Psychologie Cognitive, 10, 289-339.<br>
+                <br>
+                • Holender, D., &amp; Peereman, R. (1987). The differential
+                processing of phonographic and logographic single-digit numbers
+                by the two hemispheres. In: G. Deloche &amp; X. Seron (Eds.),
+                Mathematical disabilities: A cognitive Neuropsychological
+                perspective (pp. 43-85). Hillsdale, New Jersey: Lawrence Erlbaum
+                Associates.<br>
+                <br>
+                • Peereman, R., &amp; Holender, D. (1985). Visual-field
+                differences for a number-nonnumber classification of alphabetic
+                and logographic stimuli. Quarterly Journal of Experimental
+                Psychology, 37A, 197-216<br>
+                <br>
+                • Peereman, R., &amp; Holender, D. (1984). Relation entre taille
+                physique et taille numérique dans la comparaison de chiffres
+                écrits alphabétiquement ou idéographiquement [Relation between
+                physical and numerical sizes in the comparison of digits
+                represented alphabetically and ideographically]. Psychologica
+                Belgica, 24, 147-164.<br>
+                <br>
+                <titrepage> </titrepage></p>
+              <h1>Methodologcal contributions available online</h1>
+              <p>
+  <br>              • Orthographic, grapho-phonological, and morphological characteristics
+of written words from French elementary textbooks. Peereman, R., Lété, B., &amp; Sprenger-Charolles, L., 2007; Peereman, R., Sprenger-Charolles, L., &amp; Messaoud-Galusi, S., 2013. https://inframorph.github.io/indexEngl.html<br>
+
+  <br>              • Dufour, S., Peereman, R., Pallier, C., &amp; Radeau, M. (2002 in L’Année Psychologique, 102, 725-746). Vocolex. Une base de données lexicales sur les similarités phonologiques entre les mots français. [VoCoLex : A lexical database on phonological similarity between French words].
+ https://rpee38.github.io/vocolex/
+<br>
+  <br>              • Peereman, R., &amp; Content, A. (1999 in Behavior Research Methods, Instruments, &amp; Computers, 31, 376-379. LEXOP. A LEXical database with Orthography-Phonology statistics for French monosyllabic words.
+ https://rpee38.github.io/lexop/<br>
+</p>
+              <br>
+              <p></p>
+
+              <p> <b> </b></p>
+              <br>
+             
+              <br>
+              <p></p>
+              <br>
+              <br>
+              <br>
+              <br>
+            </article>
+          </td>
+          <td align="right" width="5%"> <br>
+            &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <br>
+    <table width="571" border="0">
+      <tbody>
+        <tr>
+          <td width="204"><img src="lpnc.png" height="56" width="150"></td>
+          <td width="232"><img src="UGA.png" height="81" width="130"></td>
+          <td width="197"><img src="cnrs.jpg" height="80" width="80"></td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <br>
+    <br>
+    web color
   </body>
 </html>
